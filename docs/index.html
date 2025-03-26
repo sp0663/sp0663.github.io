@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>Who Asked?</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+
+</head>
+<body class="bg-linear-to-r from-pink-200 to-90% to-blue-200 flex flex-col justify-center items-center">
+
+    <div class="w-full text-2xl md:text-3xl font-semibold bg-white text-center my-5 p-2">Random Advice</div>
+    <div class="h-72 m-5 w-6/7 bg-white rounded-2xl p-4 drop-shadow-xl flex flex-col justify-center items-center">
+        <button type="button" class="bg-black font-outfit text-white rounded-3xl text-xl px-4 py-1 align-middle hover:text-[22px]" id="btn">Click Me!</button>
+        <p id="adv" class="text-xl md:text-2xl font-semibold p-2 text-center"></p>
+        <p id="time" class="my-1"></p>
+    </div>
+    <div class="flex">
+        <button type="button" class="bg-white rounded-3xl px-4 py-1 m-5 text-xl font-outfit hidden hover:text-white hover:bg-black" id="reset">Reset</button>
+        <button type="button" class="bg-white rounded-3xl px-4 py-1 m-5 text-xl font-outfit hidden hover:text-white hover:bg-black" id="tweet">Tweet</button>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
